@@ -20,6 +20,7 @@ dependencies {
     remapper("net.fabricmc:tiny-remapper:0.8.6:fat")
     decompiler("net.minecraftforge:forgeflower:2.0.627.2")
     paperclip("io.papermc:paperclip:3.0.3")
+    implementation("net.sf.jopt-simple:jopt-simple:6.0-alpha-3")
 }
 
 allprojects {
