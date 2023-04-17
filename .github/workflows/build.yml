@@ -28,8 +28,10 @@ jobs:
         run: ./gradlew applyPatches
       - name: Build
         run: ./gradlew build
+      - name: PR
+        run: ./gradlew createMojmapPaperclipJar
       - name: Upload build artifacts
         uses: actions/upload-artifact@v2
         with:
           name: FoilaBuild
-          path: Folia-Server/build/*
+          path: Folia-Server/build/libs/*.jar
