@@ -31,7 +31,7 @@ jobs:
       - name: PR
         run: ./gradlew createMojmapPaperclipJar
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: FoilaBuild
           path: /*/*.jar
