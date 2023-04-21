@@ -42,5 +42,4 @@ jobs:
           name: FoilaBuild
           path: |
             build/*/*.jar
-            Folia-Server/build/*/*.jar
             
