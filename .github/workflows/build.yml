@@ -40,4 +40,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: FoilaBuild
-          path: /*/*.jar
+          path: |
+            build/*/*.jar
+            Folia-Server/build/*/*.jar
+            
