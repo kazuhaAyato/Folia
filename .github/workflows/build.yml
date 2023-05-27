@@ -28,12 +28,12 @@ jobs:
         run: ./gradlew applyPatches
       - name: Build
         run: ./gradlew build
-      - name: A
-        run: ./gradlew createMojmapPaperclipJar
-      - name: B
-        run: ./gradlew createMojmapBundlerJar
-      - name: C
-        run: ./gradlew createReobfBundlerJar
+#       - name: A
+#         run: ./gradlew createMojmapPaperclipJar
+#       - name: B
+#         run: ./gradlew createMojmapBundlerJar
+#       - name: C
+#         run: ./gradlew createReobfBundlerJar
       - name: D
         run: ./gradlew createReobfPaperclipJar
       - name: Upload build artifacts
